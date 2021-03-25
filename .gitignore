@@ -15,3 +15,5 @@ src/logs/*
 !src/logs/index.html
 !src/logs/.htaccess
 /vendor/
+
+.htaccess
