@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Gateway extends CI_Controller {
+class Alto extends CI_Controller {
 	private $data;
 
 	public function __construct()
@@ -13,7 +13,7 @@ class Gateway extends CI_Controller {
 
 	public function index()
 	{
-		redirect('gateway/inquiry');
+		redirect('gateway/alto/inquiry');
 	}
 
 	public function inquiry() {

@@ -53,5 +53,7 @@ $route['default_controller'] = 'gateway';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['gateway/inquiry'] = 'gateway/inquiry';
-$route['gateway/request'] = 'gateway/request';
+$route['gateway/alto/inquiry'] = 'alto/inquiry';
+$route['gateway/alto/request'] = 'alto/request';
+
+$route['gateway/finchannel/request'] = 'finchannel/request';
