@@ -56,4 +56,6 @@ $route['translate_uri_dashes'] = FALSE;
 $route['gateway/alto/inquiry'] = 'alto/inquiry';
 $route['gateway/alto/request'] = 'alto/request';
 
+$route['gateway/bris/request'] = 'bris/request';
+
 $route['gateway/finchannel/request'] = 'finchannel/request';
